@@ -9,7 +9,7 @@ BurpCert Assistant
 
 ## Package cryptography
 * `pip install cryptography`
-* burp cert's C(Country name) is 'PortSwigger' but cryptography cannot handle more than 2 characters. (ex, KR, EN, etc)
+* burp cert's C(Country name) is 'PortSwigger' but cryptography cannot handle more than 2 characters. (ex,KR,EN)
   ![](./img/3.png)
 * modify `~\Lib\site-packages\cryptography\x509\name.py`
   ![](./img/4.png)
